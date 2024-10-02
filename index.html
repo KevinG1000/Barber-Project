@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Appointment Scheduler</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Barber's Appointment Scheduler</h1>
+        <nav>
+            <ul>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#book">Book Appointment</a></li>
+                <li><a href="#account">Create Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Schedule Section -->
+        <section id="schedule">
+            <h2>Barber's Schedule</h2>
+            <div class="schedule-container">
+                <p>No appointments available yet. Please check back later!</p>
+            </div>
+        </section>
+
+        <!-- Booking Section -->
+        <section id="book">
+            <h2>Book Your Appointment</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+                
+                <button type="submit">Book Appointment</button>
+            </form>
+        </section>
+
+        <!-- Create Account Section -->
+        <section id="account">
+            <h2>Create Your Account</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Create Account</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; Barber's Appointment Scheduler. All rights reserved.</p>
+    </footer>
+</body>
+</html>
